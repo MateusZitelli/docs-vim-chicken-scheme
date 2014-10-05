@@ -5,8 +5,8 @@ Searching for tools to develop using the Chicken implementation of Scheme with
 Vim I found some sparce material and I'll be centralizing what I find here.
 
 ##Chicken Swank
-Swank is a protocoll used for communication with some lisp system, this
-protocoll is useful for your IDE evaluate lisp code on a remote lisp running
+Swank is a protocol used for communication with some lisp system, this
+protocol is useful for your IDE evaluate lisp code on a remote lisp running
 an Swank server.
 
 To configure Chicken Swank:
@@ -31,7 +31,7 @@ the 2 first steps in the README of the swank project.
   Now your Swank server should start.
 
 ##Slimv
-While Emacs have SLIME, basicaly an awesome evironment to develop general Lisp
+While Emacs have SLIME, basically an awesome environment to develop general Lisp
 implementations, Slimv try to brings some of the features available in SLIME to
 vim. To run it for evaluate code directly inside vim you should install the
 Chicken-swank server, described in the section before.
